@@ -1471,7 +1471,7 @@ export default function RecipeBook() {
       {!selected && (
         <>
           <div className="rb-header">
-            <h1 className="rb-title">Thomas's Recipe Book</h1>
+            <h1 className="rb-title">Recipe Book</h1>
             <div className="rb-search">
               <Search size={16} color="#6B5340" />
               <input placeholder="Search recipes..." value={query} onChange={(e) => setQuery(e.target.value)} />
