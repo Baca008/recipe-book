@@ -826,6 +826,107 @@ const DEFAULT_RECIPES = [
     ],
     notes: "60/40 mayo-to-yogurt ratio is the sweet spot for creaminess without being too rich. Drain the tuna very well — excess water dilutes the dressing. This salad genuinely tastes better the next day as the pasta absorbs the dressing.",
   },
+  {
+    id: "demo-jujube-tea",
+    name: "Jujube Tea with Ginger & Cinnamon",
+    category: "Drinks",
+    servings: 4,
+    prepTime: "5 min",
+    cookTime: "30 min–2 hrs",
+    ingredients: [
+      { amount: 20, unit: null, name: "dried jujubes (red dates)" },
+      { amount: 8, unit: "cup", name: "water" },
+      { amount: 1.5, unit: "oz", name: "fresh ginger, peeled and thinly sliced" },
+      { amount: 2, unit: null, name: "cinnamon sticks" },
+      { amount: 1, unit: "tbsp", name: "honey, or to taste" },
+      { amount: 1, unit: "tbsp", name: "pine nuts, for garnish, optional" },
+    ],
+    steps: [
+      { title: "Prep the jujubes", content: "Rinse {0001} under cool water. Score each one with a knife or slice in half — this helps release their natural sweetness into the tea.", timer: null },
+      { title: "Combine and boil", content: "Add the jujubes, {0003}, and {0004} to a pot with {0002}. Bring to a boil over medium-high heat.", timer: null },
+      { title: "Simmer", content: "Reduce heat to low and simmer partially covered. The longer you go, the deeper and richer the color and flavor — a minimum of 30 minutes works, 1.5–2 hours is ideal. The liquid should turn a deep reddish-brown.", timer: 5400 },
+      { title: "Strain and sweeten", content: "Strain out the jujubes, ginger, and cinnamon. Taste and stir in {0005} as desired — the jujubes add natural sweetness so you may not need much.", timer: null },
+      { title: "Serve", content: "Pour into cups. Float a few {0006} on top if using — they add a subtle nutty texture as you sip.", timer: null },
+    ],
+    notes: "A deeply warming tea drawn from Korean and Chinese tradition — tastes like chai met apple cider. Longer simmering deepens the color and flavor considerably.",
+  },
+  {
+    id: "demo-roselle-cold-brew",
+    name: "Roselle Red Dates Cold Brew",
+    category: "Drinks",
+    servings: 4,
+    prepTime: "5 min",
+    cookTime: "6 hrs–overnight",
+    ingredients: [
+      { amount: 3, unit: "tbsp", name: "dried roselle (hibiscus flowers)" },
+      { amount: 15, unit: null, name: "red dates (jujubes), scored" },
+      { amount: 1, unit: null, name: "slice fresh ginger" },
+      { amount: 3, unit: null, name: "slices lemon" },
+      { amount: 4, unit: "cup", name: "water, split: hot + room temperature" },
+    ],
+    steps: [
+      { title: "Bloom", content: "Combine {0001}, {0002}, and {0003} in a pitcher or jar. Pour a small amount of hot water over them and let steep 1–2 minutes to bloom the ingredients.", timer: 120 },
+      { title: "Fill", content: "Add room temperature water to fill the pitcher.", timer: null },
+      { title: "Add lemon", content: "Add {0004} and stir gently.", timer: null },
+      { title: "Cold brew", content: "Cover and refrigerate at least 6 hours or overnight. Serve over ice.", timer: null },
+    ],
+    notes: "Scoring the red dates helps release their natural sweetness. Roselle gives it a deep ruby color and tart hibiscus flavor — naturally caffeine-free. Add honey to taste if you prefer it sweeter. Find dried roselle (flor de jamaica) at Mexican or Asian grocery stores.",
+  },
+  {
+    id: "demo-chicken-schmaltz",
+    name: "Chicken Schmaltz & Gribenes (Rendered Chicken Fat)",
+    category: "Pantry",
+    servings: 4,
+    prepTime: "5 min",
+    cookTime: "45 min",
+    ingredients: [
+      { amount: 1, unit: "lb", name: "chicken skin, from deboned thighs or any chicken parts" },
+      { amount: 2, unit: "tbsp", name: "water" },
+      { amount: 1, unit: null, name: "small onion, thinly sliced, optional — adds flavor to the schmaltz" },
+      { amount: 1, unit: "pinch", name: "kosher salt, for finishing the gribenes" },
+    ],
+    steps: [
+      { title: "Cut the skin", content: "Cut chicken skin into roughly 1-inch pieces — smaller pieces render more efficiently and evenly.", timer: null },
+      { title: "Start rendering", content: "Place the skin and {0002} in a heavy-bottomed pan or Dutch oven over low heat. The water prevents the skin from burning before the fat starts to render — no oil needed.", timer: null },
+      { title: "Render low and slow", content: "Cook on low heat 30–40 minutes, stirring occasionally, until the pieces shrink and turn golden brown and the pan fills with clear liquid fat. Don't rush with high heat.", timer: 2100 },
+      { title: "Add onion (optional)", content: "Add {0003} halfway through cooking. It caramelizes in the rendering fat and adds incredible flavor to the schmaltz.", timer: null },
+      { title: "Finish the gribenes", content: "Once the skin is deep golden and crispy, remove with a slotted spoon and drain on paper towels. Sprinkle with {0004} immediately.", timer: null },
+      { title: "Strain the schmaltz", content: "Strain the liquid fat through a fine mesh strainer into a clean glass jar. Let cool to room temperature, then refrigerate.", timer: null },
+    ],
+    notes: "Schmaltz keeps in the fridge up to 3 months, or freeze up to 1 year — use anywhere you'd use butter or oil. Gribenes are best eaten fresh and hot; they soften as they sit, so reheat in a dry pan or air fryer to re-crisp. Oven method: spread skin on a wire rack over a baking sheet, roast at 300°F for 40–50 minutes until golden and crispy, then pour the rendered fat from the pan into a jar. Reserve some raw skin instead to add directly to bone broth if you'd rather use it there — the collagen helps the broth gel.",
+  },
+  {
+    id: "demo-chicken-bone-broth",
+    name: "Chicken Bone Broth (Pressure Cooker)",
+    category: "Pantry",
+    servings: 8,
+    prepTime: "10 min",
+    cookTime: "2.5 hrs",
+    ingredients: [
+      { amount: 3, unit: "lb", name: "chicken bones (thigh, drumstick, carcass — raw or roasted)" },
+      { amount: 2, unit: "tbsp", name: "apple cider vinegar" },
+      { amount: 10, unit: "cup", name: "cold water, enough to cover bones, don't exceed max fill line" },
+      { amount: 1, unit: null, name: "yellow onion, halved, no need to peel" },
+      { amount: 1, unit: null, name: "whole garlic head, cut in half crosswise" },
+      { amount: 2, unit: null, name: "celery stalks, roughly chopped" },
+      { amount: 2, unit: null, name: "medium carrots, roughly chopped" },
+      { amount: 3, unit: null, name: "slices fresh ginger" },
+      { amount: 3, unit: null, name: "green onion bulbs, white parts" },
+      { amount: 2, unit: null, name: "bay leaves" },
+      { amount: 1, unit: "tsp", name: "black peppercorns" },
+      { amount: 3, unit: null, name: "dried shiitake mushrooms, optional, adds umami" },
+      { amount: 1, unit: null, name: "small piece kombu/dried kelp, optional, serious umami boost" },
+      { amount: 5, unit: null, name: "red dates/jujubes, scored, optional, adds sweetness" },
+    ],
+    steps: [
+      { title: "Roast the bones (optional but recommended)", content: "Roast bones at 425°F for 25–30 minutes until deep golden brown. Transfer directly to the pressure cooker — do not rinse. Deglaze the roasting pan with a splash of water, scrape up the browned bits, and pour that into the pressure cooker too.", timer: 1650 },
+      { title: "Add everything else", content: "Add {0002} and all remaining ingredients to the pressure cooker along with {0003}. Cold water helps draw out more collagen and minerals. Do not add salt.", timer: null },
+      { title: "Pressure cook", content: "Seal the lid and cook on HIGH pressure for 2–3 hours. Longer means more collagen and richer flavor.", timer: 9000 },
+      { title: "Natural release", content: "Let the pressure release naturally for at least 30 minutes — don't force release.", timer: 1800 },
+      { title: "Strain and chill", content: "Strain through a fine mesh strainer, lined with cheesecloth if you have it, and discard the solids. Let cool to room temperature, then refrigerate overnight. The fat will solidify on top for easy removal, and the broth should gel when cold — that's the sign it's rich in collagen.", timer: null },
+    ],
+    notes: "If the broth doesn't gel, simmer uncovered on the stovetop 30–60 minutes to reduce and concentrate. Don't add salt until you use the broth. Freeze in ice cube trays or 1–2 cup portions. Raw skin can go in directly alongside the bones for extra collagen. Red dates and ginger are a nod to Chinese bone broth tradition.",
+  },
 ];
 
 const CATEGORIES = ["All", "Dinner", "Sides", "Baking", "Drinks", "Pantry"];
@@ -1181,7 +1282,7 @@ export default function RecipeBook() {
             </div>
           </div>
           <div className="rb-banner">
-            28 of 38 recipes rebuilt so far — Korean, Peruvian, Mexican, Middle Eastern, Japanese, and sides/salads are in. Drinks and baking are coming next.
+            32 of 38 recipes rebuilt so far — everything is in except baking. Same-Day Focaccia, No-Knead Focaccia, Zucchini Bread, Chocolate Chip Cookies, and the KikiFoodies Bread Loaf are coming next.
           </div>
           <div className="rb-list">
             {visible.length === 0 && <div className="rb-empty">No recipes match yet — try a different search or category.</div>}
