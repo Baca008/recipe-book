@@ -137,11 +137,11 @@ const DEFAULT_RECIPES = [
     ],
     steps: [
       { title: "Marinate", content: "Combine {0002}, {0003}, {0004}, {0005}, {0006}, {0007}, {0008}, {0009}, {0010}, {0011}, and {0012} in a bowl. Add the chicken and toss to coat thoroughly. Cover and marinate at least 1 hour — overnight (up to 24 hours) is best.", timer: 3600 },
-      { title: "Make the white sauce", content: "Whisk {0013}, {0014}, {0015}, {0016}, {0017}, and {0018} together until smooth. Refrigerate until ready to serve.", timer: null },
-      { title: "Cook the chicken", content: "Heat a skillet or grill pan over high heat. Cook the chicken in a single layer, letting it sit undisturbed for a couple minutes at a time rather than stirring constantly, until charred at the edges and cooked through, about 8–10 minutes total.", timer: 600 },
+      { title: "Make the white sauce", content: "Whisk {0013}, {0014}, {0015}, {0016}, {0017}, and {0018} together until smooth. Refrigerate until ready to serve — it gets better as it sits, so make it ahead if you can.", timer: null },
+      { title: "Cook the chicken", content: "Heat a large skillet or grill pan over medium-high heat with a little oil. Add chicken in a single layer and let cook undisturbed 4–5 minutes until deeply browned. Flip and cook another 4–5 minutes until charred and cooked through, 165°F internal. Rest 5 minutes, then chop into bite-sized pieces.", timer: 600 },
       { title: "Assemble", content: "Serve over rice with {0019}, drizzled generously with the white sauce.", timer: null },
     ],
-    notes: "Pairs directly with a turmeric basmati rice side — I'll add that recipe back in once I've confirmed the exact rice-to-broth ratio from the original conversation rather than guessing at it.",
+    notes: "Pairs directly with the Turmeric Basmati Rice recipe. Thighs hold up better than breast and absorb the marinade more deeply. Don't rush the marinade — overnight is where most copycats fall short. Let the chicken sit undisturbed rather than stirring constantly to build the deep golden crust. White sauce keeps up to a week in the fridge.",
   },
   {
     id: "demo-sigeumchi-namul",
@@ -557,6 +557,94 @@ const DEFAULT_RECIPES = [
     ],
     notes: "Fresh citrus only — bottled juice loses the brightness that makes mojo distinctive. Don't marinate longer than 4–6 hours; this is a stricter cap than yogurt-based marinades. A classic Cuban plate: mojo chicken + black beans + turmeric basmati rice + avocado slices.",
   },
+  {
+    id: "demo-turmeric-basmati-rice",
+    name: "Turmeric Basmati Rice",
+    category: "Sides",
+    servings: 4,
+    prepTime: "5 min",
+    cookTime: "20 min",
+    ingredients: [
+      { amount: 1.5, unit: "cup", name: "basmati rice" },
+      { amount: 2, unit: "tbsp", name: "butter or ghee" },
+      { amount: 0.5, unit: "tsp", name: "ground turmeric" },
+      { amount: 0.5, unit: "tsp", name: "ground cumin" },
+      { amount: 2.25, unit: "cup", name: "chicken broth" },
+      { amount: 0.5, unit: "tsp", name: "salt, adjust to broth saltiness" },
+    ],
+    steps: [
+      { title: "Rinse", content: "Rinse {0001} in a fine-mesh strainer under cold water until the water runs clear.", timer: null },
+      { title: "Bloom the spices", content: "In a pot, melt {0002} over medium heat. Add {0003} and {0004}, stir 30 seconds until fragrant.", timer: 30 },
+      { title: "Toast the rice", content: "Add the rinsed rice and stir to coat in the spiced butter, toasting 1–2 minutes.", timer: 90 },
+      { title: "Simmer", content: "Pour in {0005} and {0006}. Bring to a boil, then reduce heat to low, cover, and simmer 15 minutes until tender and the liquid is absorbed.", timer: 900 },
+      { title: "Rest and fluff", content: "Remove from heat and rest, covered, 5 minutes. Fluff with a fork before serving.", timer: 300 },
+    ],
+    notes: "This is the base for Halal Guys style platters — pairs directly with the Halal Guys Chicken recipe. Basmati's long grain and fluffy texture matter here, so it's worth not substituting a shorter-grain rice. Don't lift the lid while simmering. Rice cooker version: bloom the butter and spices on the stovetop first for the best flavor, then add everything — rinsed rice, broth, salt — to the rice cooker on the white rice setting.",
+  },
+  {
+    id: "demo-chicken-shawarma",
+    name: "Slow Cooker Chicken Shawarma",
+    category: "Dinner",
+    servings: 4,
+    prepTime: "10 min + marinate",
+    cookTime: "4–6 hrs",
+    ingredients: [
+      { amount: 2, unit: "lb", name: "boneless skinless chicken thighs" },
+      { amount: 1, unit: null, name: "yellow onion, thinly sliced" },
+      { amount: 0.33, unit: "cup", name: "plain Greek yogurt" },
+      { amount: 3, unit: "tbsp", name: "lemon juice" },
+      { amount: 3, unit: null, name: "garlic cloves, minced" },
+      { amount: 2, unit: "tbsp", name: "olive oil" },
+      { amount: 2, unit: "tsp", name: "smoked paprika" },
+      { amount: 2, unit: "tsp", name: "ground cumin" },
+      { amount: 1, unit: "tsp", name: "ground coriander" },
+      { amount: 0.5, unit: "tsp", name: "cinnamon" },
+      { amount: 0.5, unit: "tsp", name: "turmeric" },
+      { amount: 0.5, unit: "tsp", name: "allspice" },
+      { amount: 0.5, unit: "tsp", name: "cayenne pepper, optional" },
+      { amount: 1, unit: "tsp", name: "kosher salt" },
+      { amount: 0.5, unit: "tsp", name: "black pepper" },
+    ],
+    steps: [
+      { title: "Marinate", content: "Whisk together {0003}, {0004}, {0005}, {0006}, {0007}, {0008}, {0009}, {0010}, {0011}, {0012}, {0013}, {0014}, and {0015} in a large bowl. Add chicken and coat well. Marinate at least 4 hours — overnight (8–12 hours) is the sweet spot; don't rush this step.", timer: 14400 },
+      { title: "Layer the slow cooker", content: "Layer {0002} on the bottom of the slow cooker. Place the marinated chicken on top.", timer: null },
+      { title: "Cook", content: "Cook on LOW for 4–6 hours or HIGH for 3–4 hours, until the chicken reaches 165°F and shreds easily.", timer: null },
+      { title: "Shred and rest", content: "Remove chicken to a cutting board and roughly chop or shred. Return to the slow cooker and stir into the onions and juices. Let sit 10 minutes to absorb the flavors.", timer: 600 },
+      { title: "Optional char", content: "For charred edges, spread the chicken on a foil-lined sheet pan and broil 5–7 minutes until browned and crispy.", timer: 420 },
+    ],
+    notes: "No allspice on hand? Substitute 1/4 tsp ground cloves plus a pinch of nutmeg. Yogurt-based marinades are gentler than pure citrus, so overnight to 24 hours is fine — past 24–36 hours it can start to get mushy. Great in pita with the same white sauce from the Halal Guys Chicken recipe.",
+  },
+  {
+    id: "demo-karaage",
+    name: "Chicken Karaage (Japanese Fried Chicken)",
+    category: "Dinner",
+    servings: 4,
+    prepTime: "15 min + marinate",
+    cookTime: "15 min",
+    ingredients: [
+      { amount: 2, unit: "lb", name: "boneless skin-on chicken thighs, cut into 1.5-inch pieces" },
+      { amount: 3, unit: "tbsp", name: "soy sauce" },
+      { amount: 2, unit: "tbsp", name: "sake (or dry sherry — don't skip, it adds a distinct flavor)" },
+      { amount: 1, unit: "tbsp", name: "mirin" },
+      { amount: 1, unit: "tsp", name: "toasted sesame oil" },
+      { amount: 1, unit: "tbsp", name: "fresh ginger, grated" },
+      { amount: 3, unit: null, name: "garlic cloves, grated or minced" },
+      { amount: 0.25, unit: "tsp", name: "white pepper" },
+      { amount: 0.5, unit: "cup", name: "potato starch (katakuriko) — not cornstarch, not flour" },
+      { amount: 2, unit: "tbsp", name: "all-purpose flour, mixed with the potato starch for better adhesion" },
+      { amount: 1, unit: "tsp", name: "water, for the hailstone effect — see notes" },
+      { amount: 1, unit: null, name: "lemon, cut into wedges, for serving" },
+      { amount: 0.25, unit: "cup", name: "Japanese Kewpie mayo, for serving" },
+    ],
+    steps: [
+      { title: "Marinate", content: "Cut chicken thighs into 1.5-inch pieces, keeping the skin on for extra crunch. In a bowl combine {0002}, {0003}, {0004}, {0005}, {0006}, {0007}, and {0008}. Add chicken and toss to coat. Marinate in the fridge at least 30 minutes, up to overnight.", timer: 1800 },
+      { title: "Coat", content: "Mix {0009} and {0010} together. Shake off excess marinade from the chicken and toss each piece in the starch mixture to coat thoroughly. Sprinkle {0011} over the coated pieces for the hailstone effect, then let sit 5 minutes so the starch absorbs slightly.", timer: 300 },
+      { title: "Air fryer method", content: "Preheat to 390°F Air Fry. Spray the basket lightly with avocado oil, place pieces in a single layer without touching, and spray the tops. Cook 10 minutes, flip, spray again, and cook another 8–10 minutes until deep golden. For extra crispness, bump to 400°F for the last 3 minutes.", timer: 1080 },
+      { title: "Double-fry hack (air fryer)", content: "Let the chicken rest 3–5 minutes after the first cook, then return to the air fryer at 400°F for 3–4 more minutes. This mimics a traditional double-fry and gives noticeably crispier results.", timer: 240 },
+      { title: "Serve", content: "Serve immediately with {0012} and {0013} — karaage softens as it sits. If making ahead, re-crisp in the air fryer at 400°F for 3 minutes.", timer: null },
+    ],
+    notes: "Potato starch (katakuriko) makes for a lighter, airier crunch than cornstarch and is the single ingredient that makes karaage taste distinctively Japanese — find it at H-Mart or 99 Ranch. Since you debone your own thighs, keep the skin on here — it's traditional. If deep frying instead of air frying: fry at 325°F for 3–4 minutes, rest 3 minutes, then fry again at 350°F for 2–3 minutes until deep golden — this traditional double-fry method gets closer to 100% of the crispiness the air fryer approximates at 85%.",
+  },
 ];
 
 const CATEGORIES = ["All", "Dinner", "Sides", "Baking", "Drinks", "Pantry"];
@@ -912,7 +1000,7 @@ export default function RecipeBook() {
             </div>
           </div>
           <div className="rb-banner">
-            18 of 38 recipes rebuilt so far — Korean, Peruvian, and Mexican are in. Middle Eastern, Japanese, sides/salads, and baking are coming next.
+            22 of 38 recipes rebuilt so far — Korean, Peruvian, Mexican, Middle Eastern, and Japanese mains are in. Sides/salads, drinks, and baking are coming next.
           </div>
           <div className="rb-list">
             {visible.length === 0 && <div className="rb-empty">No recipes match yet — try a different search or category.</div>}
