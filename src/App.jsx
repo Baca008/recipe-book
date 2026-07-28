@@ -1216,6 +1216,39 @@ const DEFAULT_RECIPES = [
     ],
     notes: "The tuna is the confirmed secret ingredient — Ono's allergen chart lists fish in the mac salad. Use it finely flaked so it melts into the dressing rather than chunking up. Drain very thoroughly.\n\nBest Foods/Hellmann's mayo is the correct brand — it has a specific flavor profile essential to authentic Hawaiian mac salad. Kewpie can be used for a slightly richer, tangier version.\n\nOvercooked pasta is intentional and non-negotiable — al dente pasta won't absorb the dressing and will taste dry and separated.\n\nDouble-dress technique: dress hot with 1 cup mayo, refrigerate, then add remaining mayo cold before serving. This is the most commonly missed step.\n\nMake overnight — it tastes dramatically better after sitting. The pasta fully absorbs the dressing and the flavors meld.\n\nWhite pepper instead of black — gives a cleaner heat without the visible specks.\n\nServe alongside teriyaki chicken, kalua pork, or your grilled chicken recipes for a full Hawaiian plate lunch.",
   },
+
+  {
+    id: "demo-41",
+    name: "Chicken Tinga (Tinga de Pollo)",
+    category: "Dinner",
+    servings: 4,
+    prepTime: "15 min",
+    cookTime: "40 min",
+    favorite: false,
+    ingredients: [
+      { amount: 1.5, unit: "lb", name: "boneless skinless chicken thighs or breasts" },
+      { amount: 2, unit: "cup", name: "low-sodium chicken broth (or enough to cover chicken)" },
+      { amount: 1, unit: "tbsp", name: "olive oil or neutral oil" },
+      { amount: 1, unit: "", name: "medium white onion, thinly sliced (divided)" },
+      { amount: 3, unit: "clove", name: "garlic, minced" },
+      { amount: 1, unit: "lb", name: "roma tomatoes (about 4-5), or one 14oz can fire-roasted tomatoes" },
+      { amount: 2, unit: "", name: "chipotle peppers in adobo, plus 1 tbsp adobo sauce (adjust to taste)" },
+      { amount: 1, unit: "tsp", name: "dried oregano (Mexican if available)" },
+      { amount: 0.5, unit: "tsp", name: "ground cumin" },
+      { amount: 1, unit: "tsp", name: "kosher salt, plus more to taste" },
+      { amount: 1, unit: "", name: "bay leaf" },
+    ],
+    steps: [
+      "Place chicken in a pot with chicken broth, half the sliced onion, and the bay leaf. Bring to a simmer over medium heat, cover, and cook about 20 minutes until chicken is cooked through and shreds easily.",
+      "Remove chicken, let cool slightly, then shred with two forks. Reserve 1 cup of the poaching broth and discard the rest (or save for another use).",
+      "While chicken poaches, char the tomatoes under a broiler or in a dry skillet until skins blister and blacken in spots, about 8-10 minutes.",
+      "In a blender, combine the charred tomatoes, chipotle peppers with adobo sauce, and a splash of the reserved poaching broth. Blend until mostly smooth.",
+      "Heat oil in a large skillet over medium heat. Add the remaining sliced onion and cook until softened and lightly golden, 5-6 minutes. Add garlic and cook 1 minute until fragrant.",
+      "Pour the blended tomato-chipotle sauce into the skillet. Add oregano, cumin, and salt. Simmer uncovered, stirring occasionally, until slightly thickened, about 10 minutes.",
+      "Add the shredded chicken to the sauce along with a splash of reserved poaching broth if it looks too thick. Simmer together for 8-10 minutes so the chicken absorbs the sauce, adjusting salt to taste.",
+    ],
+    notes: "Serve on tostadas or in tacos with crumbled queso fresco, avocado, and pickled onions or jalapeños — or spoon over rice for a bowl. Chipotle peppers vary in heat/smokiness by brand, so start with 1 and add more to taste. Leftovers keep well in the fridge for 4-5 days and freeze nicely too.\n\nQUICK SHORTCUT (El Pato version): Skip charring/blending the tomatoes entirely. Poach and shred the chicken as usual (or use rotisserie chicken to skip that step too). Sauté the onion and garlic, then add one 8oz can of El Pato Jalapeño Salsa (yellow can) directly to the pan along with the chipotle in adobo, oregano, and cumin. Add the shredded chicken and a splash of poaching broth, simmer 8-10 minutes. El Pato's flavor is brighter/tangier than smoky, so the chipotle is still worth keeping for depth — and taste before adding extra salt, since canned sauces run salty.",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
