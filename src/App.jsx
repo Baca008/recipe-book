@@ -1249,6 +1249,42 @@ const DEFAULT_RECIPES = [
     ],
     notes: "Serve on tostadas or in tacos with crumbled queso fresco, avocado, and pickled onions or jalapeños — or spoon over rice for a bowl. Chipotle peppers vary in heat/smokiness by brand, so start with 1 and add more to taste. Leftovers keep well in the fridge for 4-5 days and freeze nicely too.\n\nQUICK SHORTCUT (El Pato version): Skip charring/blending the tomatoes entirely. Poach and shred the chicken as usual (or use rotisserie chicken to skip that step too). Sauté the onion and garlic, then add one 8oz can of El Pato Jalapeño Salsa (yellow can) directly to the pan along with the chipotle in adobo, oregano, and cumin. Add the shredded chicken and a splash of poaching broth, simmer 8-10 minutes. El Pato's flavor is brighter/tangier than smoky, so the chipotle is still worth keeping for depth — and taste before adding extra salt, since canned sauces run salty.\n\nSLOW COOKER (CROCK POT): Skip the stovetop poach — place chicken directly in the slow cooker. Char the tomatoes as usual, blend with chipotles/adobo and a splash of broth or water, then pour over the chicken along with the onion, garlic, oregano, cumin, salt, and bay leaf. Cook on low 6-7 hours or high 3-4 hours until it shreds easily. Shred right in the pot, stir to coat, and simmer uncovered on high 10-15 minutes to thicken if needed.\n\nPRESSURE COOKER (INSTANT POT): Sauté onion and garlic directly in the pot 3-4 minutes. Add chicken, the blended sauce (or El Pato shortcut), oregano, cumin, salt, and bay leaf. Seal and cook on high pressure 10-12 minutes for thighs or 8-10 minutes for breasts, then natural release 10 minutes before venting the rest. Shred in the pot and hit sauté again briefly to thicken the sauce if it's thin. Gets dinner on the table in about 30 minutes total.\n\nINSTANT POT AS A CROCK POT: Most Instant Pot models have a built-in Slow Cook function — use Normal for roughly 'low' or More/High for roughly 'high'. Keep the lid in venting position, not sealed, since you're not building pressure. Note: some older/basic models (like the Duo Mini) may not have this function, so it's worth checking your specific model. It also tends to run a bit hotter than a standalone crock pot, so check for doneness a little early the first time.",
   },
+
+  {
+    id: "demo-42",
+    name: "Wasabi Soy Glazed Popcorn Chicken",
+    category: "Snack",
+    servings: 4,
+    prepTime: "30 min",
+    cookTime: "12 min",
+    favorite: false,
+    ingredients: [
+      { amount: 14, unit: "oz", name: "boneless, skinless chicken thighs, cut into bite-size pieces" },
+      { amount: 0.5, unit: "tsp", name: "white pepper" },
+      { amount: 1.5, unit: "tbsp", name: "garlic, minced" },
+      { amount: 1, unit: "tbsp", name: "ginger, minced" },
+      { amount: 1, unit: "tbsp", name: "Shaoxing wine" },
+      { amount: 2, unit: "tbsp", name: "soy sauce" },
+      { amount: 0.75, unit: "cup", name: "coarse potato starch" },
+      { amount: 1, unit: "", name: "egg white" },
+      { amount: 0, unit: "", name: "cooking oil spray" },
+      { amount: 4, unit: "", name: "green onions, sliced" },
+      { amount: 0.5, unit: "tbsp", name: "wasabi (for sauce)" },
+      { amount: 0.5, unit: "tbsp", name: "brown sugar (for sauce)" },
+      { amount: 2, unit: "tbsp", name: "soy sauce (for sauce)" },
+      { amount: 1, unit: "tbsp", name: "rice vinegar (for sauce)" },
+    ],
+    steps: [
+      "Cut chicken thighs into bite-sized pieces. Toss with white pepper, garlic, ginger, Shaoxing wine, and 2 tbsp soy sauce. Marinate 20-30 minutes in the fridge, covered.",
+      "Add the egg white to the marinated chicken and mix until evenly coated.",
+      "Dredge each piece in coarse potato starch, pressing to adhere. Shake off excess.",
+      "Arrange in a single layer in the air fryer basket, spray tops lightly with oil.",
+      "Air fry at 400°F for 10-12 minutes, flipping halfway and spraying again, until golden and crisp.",
+      "While chicken cooks, whisk together wasabi, brown sugar, 2 tbsp soy sauce, and rice vinegar for the sauce.",
+      "Toss hot chicken with the sauce and sliced green onions right before serving.",
+    ],
+    notes: "From an Instagram reel — Taiwanese-style popcorn chicken with a wasabi-soy glaze. Coarse potato starch gives a crunchier, craggier crust than fine cornstarch or flour. Check for doneness around the 8-minute mark since coarse starch and cut size can affect air fry timing on the Breville. Toss with the wasabi sauce right before serving so the coating stays crisp.",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
