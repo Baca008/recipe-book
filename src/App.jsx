@@ -1310,7 +1310,8 @@ const DEFAULT_RECIPES = [
       { amount: 2, unit: "piece", name: "green onion, minced" },
     ],
     steps: [
-      "Prep ingredients: wash and mince the dried shrimp and shiitake mushrooms (soak shiitake 15-20 minutes in warm water first). Mince the Chinese sausage (reserve some for garnish), garlic, and green onion. Peel and shred the turnip. Mix rice flour with the water to form a slurry.",
+      "Prep ingredients: wash and mince the dried shrimp and shiitake mushrooms (soak shiitake 15-20 minutes in warm water first). Mince the Chinese sausage (reserve some for garnish), garlic, and green onion. Peel and shred the turnip.",
+      "In a separate bowl, whisk the rice flour and water together until smooth to make the slurry. Set aside — you'll stream this into the wok later.",
       "Heat vegetable oil in a wok over high heat until shimmering. Cook the garlic, dried shrimp, and shiitake mushrooms together for about 30 seconds.",
       "Add the Chinese sausage (saving some for garnish) and cook another 30 seconds.",
       "Add the shredded turnip, stir, cover, and cook 6-7 minutes until it releases water and starts to boil.",
