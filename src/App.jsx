@@ -1511,12 +1511,9 @@ const css = `
   .btn-danger:hover { background: #e74c3c; }
 
   .category-tabs {
-    display: flex; gap: 6px; padding: 10px 12px;
-    overflow-x: auto; scrollbar-width: none;
+    display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 12px;
     border-bottom: 1px solid var(--border);
-    -webkit-overflow-scrolling: touch;
   }
-  .category-tabs::-webkit-scrollbar { display: none; }
   .cat-tab {
     padding: 5px 14px; border-radius: 20px;
     font-size: 0.8rem; font-weight: 700;
