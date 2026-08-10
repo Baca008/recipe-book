@@ -1324,6 +1324,34 @@ const DEFAULT_RECIPES = [
     ],
     notes: "AIR FRYER (Breville Smart Oven Air Fryer): Use the \"Bake\" or \"Cookie\" function at 325°F for about 9–10 minutes, checking at 8 — air fryer ovens tend to run hot and bake faster than a conventional oven. Don't overcrowd the basket/tray; leave space for airflow.\n\nINGREDIENT NOTES: Ube extract varies quite a bit in strength and color by brand — start with the amount above and add a few more drops if the color looks pale after mixing. If you can't find ube halaya, you can omit it, but the extract-only version will be lighter in flavor and color; consider bumping the extract slightly to compensate. Find both at H-Mart or 99 Ranch in the Filipino/international aisle.\n\nSTORAGE: Dough can be frozen in portioned balls (uncoated) for up to 3 months — roll in sugar/powdered sugar straight from frozen and add 1–2 minutes to bake time.",
   },
+  {
+    id: "demo-43",
+    name: "Microwave Mug Cake (Chocolate, + Variations)",
+    category: "Snack",
+    servings: 1,
+    prepTime: "5 min",
+    cookTime: "90 sec",
+    favorite: false,
+    ingredients: [
+      { amount: 30, unit: "g", name: "all-purpose flour" },
+      { amount: 35, unit: "g", name: "granulated sugar" },
+      { amount: 15, unit: "g", name: "cocoa powder" },
+      { amount: 0.25, unit: "tsp", name: "baking powder" },
+      { amount: 1, unit: "", name: "pinch of salt" },
+      { amount: 45, unit: "ml", name: "milk" },
+      { amount: 30, unit: "ml", name: "neutral oil" },
+      { amount: 0.25, unit: "tsp", name: "vanilla extract" },
+      { amount: 1, unit: "tbsp", name: "chocolate chips, optional" },
+    ],
+    steps: [
+      "Whisk the flour, sugar, cocoa powder, baking powder, and salt together directly in a large mug.",
+      "Add the milk, oil, and vanilla extract. Stir until just combined and no dry streaks remain — don't overmix or the texture turns tough and rubbery.",
+      "Fold in chocolate chips if using.",
+      "Microwave on high for 60–90 seconds. Wattages vary a lot, so start checking at 60 seconds — it's done when the top looks set but still slightly moist; it will firm up as it cools.",
+      "Let sit for 1–2 minutes before eating — it's very hot straight out of the microwave and the texture settles as it cools slightly.",
+    ],
+    notes: "THE #1 MISTAKE: overcooking. A dry, rubbery mug cake is almost always from too much microwave time — pull it when the top still looks a little underdone.\n\nVANILLA / FUNFETTI VERSION: Omit the cocoa powder and add 15g (2 tbsp) extra flour to keep the dry-to-wet ratio balanced. Stir in sprinkles at the end for funfetti.\n\nMATCHA VERSION: Omit the cocoa powder, keep the extra 15g flour swap as in the vanilla version, and whisk in 1 tsp matcha powder with the dry ingredients. Reduce sugar slightly to 30g if you want the matcha flavor more pronounced.\n\nUBE VERSION: Omit the cocoa powder, keep the extra 15g flour swap, and add 1/2 tsp ube extract and 1 tbsp ube halaya (jam) with the wet ingredients. Uses the same ube extract/halaya from the Ube Crinkle Cookies recipe. Color may look pale before microwaving and will look more even once baked — a few extra drops of extract deepens it.\n\nBANANA VERSION: Omit the cocoa powder, keep the extra 15g flour swap, and mash in 2–3 tbsp ripe banana with the wet ingredients. Cut the milk back to about 30ml since the banana adds moisture. A pinch of cinnamon is a nice addition here.\n\nAIR FRYER: Not recommended for mug cakes — the direct microwave method is what gives the quick, evenly-cooked texture. An air fryer/oven bake would need a completely different (longer, drier) approach.\n\nUse a mug at least 12oz to give the batter room to rise without overflowing.",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
