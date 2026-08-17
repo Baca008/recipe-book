@@ -1417,6 +1417,35 @@ const DEFAULT_RECIPES = [
     ],
     notes: "FLAVOR VARIATIONS (this is where jello-based mochi fails — build flavor into the dough itself, not just the filling)\n\nMATCHA: whisk 1-2 tsp matcha powder into the dry mochiko before adding water.\n\nBLACK SESAME: swap filling for black sesame paste (toasted black sesame + sugar + a little oil, ground into a paste); optional 1 tsp toasted sesame oil in the dough.\n\nBROWN SUGAR / KUROZATO: replace the sugar with dark brown sugar for a caramel-y, less one-note sweetness.\n\nUBE: swap water for ube extract + a splash of coconut milk, use ube halaya as filling.\n\nSTORAGE: best eaten same day at room temp. Refrigerating makes mochi hard (starch retrogradation) — if you must store, freeze individually wrapped and thaw briefly at room temp, or microwave 5-10 sec to soften.\n\nWHY THIS BEATS JELLO MOCHI: jello mochi is a gelatin gummy dusted in starch — it never had rice flavor to begin with. Mochiko dough has a subtle toasted-rice sweetness on its own, which is why traditional mochi doesn't need much flavoring to taste like something.\n\nMochiko is commonly stocked at H-Mart in the flour/baking aisle (Blue Star brand is the standard).",
   },
+  {
+    id: "demo-46",
+    name: "Same-Day Focaccia",
+    category: "Snack",
+    servings: 8,
+    prepTime: "3 hr 30 min (mostly rising)",
+    cookTime: "25 min",
+    favorite: false,
+    ingredients: [
+      { amount: 500, unit: "g", name: "bread flour or all-purpose flour" },
+      { amount: 400, unit: "g", name: "water, room temp" },
+      { amount: 8, unit: "g", name: "instant yeast" },
+      { amount: 12, unit: "g", name: "salt, plus flaky salt for topping" },
+      { amount: 60, unit: "ml", name: "olive oil, divided, plus more for drizzling" },
+      { amount: 1, unit: "tsp", name: "sugar (optional, helps yeast activity)" },
+      { amount: 1, unit: "tbsp", name: "fresh rosemary leaves, or other toppings (cherry tomatoes, olives, flaky salt)" },
+    ],
+    steps: [
+      "In a large bowl, whisk the flour, instant yeast, sugar, and salt together. Add the water and 15 g (1 tbsp) of the olive oil. Mix with a spatula or your hand until no dry flour remains — the dough will be shaggy and very wet/sticky. Don't worry about smoothness at this stage.",
+      "Cover the bowl and let rest 15 minutes. Then do a set of stretch-and-folds: wet your hand, grab one side of the dough, stretch it up, and fold it over onto itself; rotate the bowl a quarter turn and repeat 4 times total. Cover and rest 15 more minutes, then repeat the stretch-and-fold set once more (2 sets total).",
+      "Cover and let the dough bulk rise at room temperature for about 2–2.5 hours, until roughly doubled and full of bubbles. (Timing depends on kitchen temp — a warm spot speeds this up.)",
+      "Pour about 30 g of olive oil onto a 9x13-inch metal or glass baking pan and spread it to coat the bottom and sides completely. Gently pour/scrape the dough into the pan without deflating it too much — it should still jiggle. Turn once to coat both sides in oil.",
+      "Cover loosely and let rest 30–45 minutes at room temperature, until puffy and relaxed enough to spread toward the edges.",
+      "Preheat the oven to 450°F (230°C). Uncover the dough and use oiled fingertips to dimple it all over firmly, pressing almost to the bottom of the pan — this is what gives focaccia its signature texture. Drizzle a little more olive oil over the top, scatter with rosemary and flaky salt, and add any other toppings (halved cherry tomatoes, olives) pressing them lightly into the dimples.",
+      "Bake for 20–25 minutes, until deeply golden brown on top and the edges have pulled slightly from the pan. Internal temp should read about 205–210°F if checking with a thermometer.",
+      "Let cool in the pan for 10 minutes, then transfer to a wire rack. Slice and serve warm or at room temp.",
+    ],
+    notes: "TIMING NOTE\nThis is the compressed, one-day version (about 3.5 hrs total active+rise time), not a cold-ferment version. For a more complex flavor, you can retard the dough in the fridge after step 2 for 12–24 hours, then pull it out, let it come to room temp for about 1 hour, and continue from step 4 — same-day is faster but a touch less flavorful than an overnight cold rise.\n\nAIR FRYER / BREVILLE SMART OVEN NOTE\nThe Breville Smart Oven Air Fryer can bake this directly — use the 'Bake' function at 450°F on the middle rack; it runs slightly hotter than a full-size oven, so start checking at 18 minutes and rotate the pan halfway through for even browning.\n\nTOPPING IDEAS\nClassic: rosemary + flaky salt + olive oil only.\nTomato: halved cherry tomatoes pressed into the dimples + torn basil after baking.\nOnion: thinly sliced red onion + a few thyme sprigs.\n\nSTORAGE\nBest the day it's made. Keeps at room temp, wrapped, for 2 days; refresh a slice in the toaster oven or air fryer at 350°F for a few minutes to re-crisp before serving. Freezes well wrapped tightly for up to 2 months.\n\nWHY THE WET DOUGH\nA high hydration dough (around 80%) is what gives focaccia its open, airy crumb — it'll feel too sticky to knead by hand normally, which is why this recipe uses stretch-and-folds instead of kneading.",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
