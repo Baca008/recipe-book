@@ -1386,6 +1386,35 @@ const DEFAULT_RECIPES = [
     ],
     notes: "VARIATIONS\nProtein: add thin strips of pork loin or shredded chicken during the simmer step for a heartier soup.\nVegetarian: use vegetable broth and skip the egg if fully vegan, or keep the egg for veg-only.\n\nINGREDIENT SOURCING (H-Mart / 99 Ranch)\nBlack rice vinegar (Chinkiang vinegar) and white pepper are usually in the Chinese sauces/spices aisle — this is what gives the soup its signature depth versus using only rice vinegar.\nDried shiitake and bamboo shoots (canned, julienned) are typically stocked near other dried goods/canned Asian vegetables.\n\nSTORAGE\nBest eaten fresh since the tofu and egg texture degrade on reheating, but leftovers keep in the fridge for up to 3 days — reheat gently on the stovetop, not boiling.\n\nThis is a standard/classic version of hot and sour soup assembled from common technique, not sourced from one specific recipe author — treat exact ratios as a solid starting point you can adjust to taste.",
   },
+  {
+    id: "demo-45",
+    name: "Microwave Mochi (Mochiko-Based)",
+    category: "Snack",
+    servings: 8,
+    prepTime: "10 min",
+    cookTime: "5 min",
+    favorite: false,
+    ingredients: [
+      { amount: 130, unit: "g", name: "mochiko (sweet rice flour, e.g. Blue Star / Koda Farms)" },
+      { amount: 65, unit: "g", name: "sugar" },
+      { amount: 180, unit: "ml", name: "water" },
+      { amount: 40, unit: "g", name: "cornstarch or potato starch, for dusting" },
+      { amount: 1, unit: "tsp", name: "vanilla extract (optional, for plain version)" },
+      { amount: 8, unit: "", name: "small filling pieces (chocolate, strawberry, or sweetened red bean)" },
+    ],
+    steps: [
+      "In a microwave-safe bowl, whisk together the mochiko, sugar, and water until smooth with no lumps. Add vanilla if using. It should look like a thin pancake batter.",
+      "Cover the bowl loosely (a plate or damp paper towel works) and microwave on high for 1 minute.",
+      "Take it out and stir well with a wet spatula — it'll be partially set and lumpy, that's normal.",
+      "Cover again and microwave for another 1 minute.",
+      "Stir again. The dough should now look mostly translucent with a few opaque streaks.",
+      "Microwave in 20–30 second bursts until the dough is fully translucent, glossy, and very sticky/stretchy — no white opaque patches left.",
+      "Dust a work surface heavily with cornstarch or potato starch. Turn the hot dough out onto it and dust the top too. Let it cool for 3–5 minutes until safe to touch but still warm and pliable.",
+      "With starch-dusted hands, divide dough into 8 pieces. Flatten each into a disc, place a piece of filling in the center, and pinch/gather the edges to seal. Roll into a ball, seam-side down.",
+      "Use a dry pastry brush to knock off excess starch before serving — too much makes them taste chalky.",
+    ],
+    notes: "FLAVOR VARIATIONS (this is where jello-based mochi fails — build flavor into the dough itself, not just the filling)\n\nMATCHA: whisk 1-2 tsp matcha powder into the dry mochiko before adding water.\n\nBLACK SESAME: swap filling for black sesame paste (toasted black sesame + sugar + a little oil, ground into a paste); optional 1 tsp toasted sesame oil in the dough.\n\nBROWN SUGAR / KUROZATO: replace the sugar with dark brown sugar for a caramel-y, less one-note sweetness.\n\nUBE: swap water for ube extract + a splash of coconut milk, use ube halaya as filling.\n\nSTORAGE: best eaten same day at room temp. Refrigerating makes mochi hard (starch retrogradation) — if you must store, freeze individually wrapped and thaw briefly at room temp, or microwave 5-10 sec to soften.\n\nWHY THIS BEATS JELLO MOCHI: jello mochi is a gelatin gummy dusted in starch — it never had rice flavor to begin with. Mochiko dough has a subtle toasted-rice sweetness on its own, which is why traditional mochi doesn't need much flavoring to taste like something.\n\nMochiko is commonly stocked at H-Mart in the flour/baking aisle (Blue Star brand is the standard).",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
