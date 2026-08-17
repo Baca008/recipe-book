@@ -1363,6 +1363,8 @@ const DEFAULT_RECIPES = [
     ingredients: [
       { amount: 6, unit: "cup", name: "low-sodium chicken broth (or vegetable broth)" },
       { amount: 6, unit: "", name: "dried shiitake mushrooms, rehydrated and sliced (or 8 oz fresh)" },
+      { amount: 10, unit: "g", name: "dried wood ear mushrooms, rehydrated and sliced into strips" },
+      { amount: 10, unit: "g", name: "dried lily flowers (golden needles), rehydrated, tough ends trimmed, tied in a knot" },
       { amount: 14, unit: "oz", name: "firm tofu, cut into thin strips" },
       { amount: 1, unit: "cup", name: "bamboo shoots, julienned" },
       { amount: 3, unit: "tbsp", name: "soy sauce" },
@@ -1377,14 +1379,14 @@ const DEFAULT_RECIPES = [
       { amount: 2, unit: "", name: "scallions, thinly sliced" },
     ],
     steps: [
-      "If using dried shiitake, soak in hot water for 20 minutes until soft, then slice thinly. Save the soaking liquid — you can strain and add a splash to the broth for extra flavor.",
-      "Bring the broth to a simmer in a large pot. Add the sliced mushrooms, tofu, and bamboo shoots. Simmer for 5 minutes to let flavors meld.",
+      "Soak the dried shiitake, wood ear mushrooms, and lily flowers separately in hot water for 20–30 minutes until softened. Slice the shiitake and wood ear into thin strips. Trim the tough knobby ends off the lily flowers and tie each one in a loose knot (this keeps them from turning stringy in the soup). Save the shiitake soaking liquid — you can strain and add a splash to the broth for extra flavor.",
+      "Bring the broth to a simmer in a large pot. Add the sliced shiitake, wood ear, lily flowers, tofu, and bamboo shoots. Simmer for 5 minutes to let flavors meld.",
       "Stir in the soy sauce, black rice vinegar, white pepper, and sugar. Taste and adjust — add more vinegar for tang or more white pepper for heat.",
       "Mix the cornstarch with the water until smooth. While stirring the soup in a circular motion, slowly pour in the slurry. Simmer 1–2 minutes until slightly thickened and glossy.",
       "Reduce heat to low so the soup is barely simmering. Slowly drizzle in the beaten eggs in a thin stream while gently stirring in one direction with a fork or chopstick to create delicate ribbons. Don't overstir or the egg will break into small bits instead of ribbons.",
       "Remove from heat. Stir in the sesame oil. Ladle into bowls and top with chili oil and scallions. Serve immediately while hot.",
     ],
-    notes: "VARIATIONS\nProtein: add thin strips of pork loin or shredded chicken during the simmer step for a heartier soup.\nVegetarian: use vegetable broth and skip the egg if fully vegan, or keep the egg for veg-only.\n\nINGREDIENT SOURCING (H-Mart / 99 Ranch)\nBlack rice vinegar (Chinkiang vinegar) and white pepper are usually in the Chinese sauces/spices aisle — this is what gives the soup its signature depth versus using only rice vinegar.\nDried shiitake and bamboo shoots (canned, julienned) are typically stocked near other dried goods/canned Asian vegetables.\n\nSTORAGE\nBest eaten fresh since the tofu and egg texture degrade on reheating, but leftovers keep in the fridge for up to 3 days — reheat gently on the stovetop, not boiling.\n\nThis is a standard/classic version of hot and sour soup assembled from common technique, not sourced from one specific recipe author — treat exact ratios as a solid starting point you can adjust to taste.",
+    notes: "VARIATIONS\nProtein: add thin strips of pork loin or shredded chicken during the simmer step for a heartier soup.\nVegetarian: use vegetable broth and skip the egg if fully vegan, or keep the egg for veg-only.\n\nINGREDIENT SOURCING (H-Mart / 99 Ranch)\nBlack rice vinegar (Chinkiang vinegar) and white pepper are usually in the Chinese sauces/spices aisle — this is what gives the soup its signature depth versus using only rice vinegar.\nDried shiitake, wood ear mushrooms, and lily flowers (sometimes labeled "golden needles" or "day lily buds") are typically stocked together near other dried goods; bamboo shoots (canned, julienned) are usually nearby with canned Asian vegetables.\n\nSTORAGE\nBest eaten fresh since the tofu and egg texture degrade on reheating, but leftovers keep in the fridge for up to 3 days — reheat gently on the stovetop, not boiling.\n\nThis is a standard/classic version of hot and sour soup assembled from common technique, not sourced from one specific recipe author — treat exact ratios as a solid starting point you can adjust to taste.",
   },
   {
     id: "demo-45",
