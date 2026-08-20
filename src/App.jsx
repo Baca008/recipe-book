@@ -1446,6 +1446,34 @@ const DEFAULT_RECIPES = [
     ],
     notes: "TIMING NOTE\nThis is the compressed, one-day version (about 3.5 hrs total active+rise time), not a cold-ferment version. For a more complex flavor, you can retard the dough in the fridge after step 2 for 12–24 hours, then pull it out, let it come to room temp for about 1 hour, and continue from step 4 — same-day is faster but a touch less flavorful than an overnight cold rise.\n\nAIR FRYER / BREVILLE SMART OVEN NOTE\nThe Breville Smart Oven Air Fryer can bake this directly — use the 'Bake' function at 450°F on the middle rack; it runs slightly hotter than a full-size oven, so start checking at 18 minutes and rotate the pan halfway through for even browning.\n\nTOPPING IDEAS\nClassic: rosemary + flaky salt + olive oil only.\nTomato: halved cherry tomatoes pressed into the dimples + torn basil after baking.\nOnion: thinly sliced red onion + a few thyme sprigs.\n\nSTORAGE\nBest the day it's made. Keeps at room temp, wrapped, for 2 days; refresh a slice in the toaster oven or air fryer at 350°F for a few minutes to re-crisp before serving. Freezes well wrapped tightly for up to 2 months.\n\nWHY THE WET DOUGH\nA high hydration dough (around 80%) is what gives focaccia its open, airy crumb — it'll feel too sticky to knead by hand normally, which is why this recipe uses stretch-and-folds instead of kneading.",
   },
+  {
+    id: "demo-47",
+    name: "Century Egg and Tofu (Pidan Doufu)",
+    category: "Snack",
+    servings: 2,
+    prepTime: "10 min",
+    cookTime: "0 min",
+    favorite: false,
+    ingredients: [
+      { amount: 1, unit: "", name: "block silken or soft tofu, chilled" },
+      { amount: 2, unit: "", name: "century eggs (pidan), peeled and cut into wedges" },
+      { amount: 2, unit: "tbsp", name: "light soy sauce" },
+      { amount: 1, unit: "tsp", name: "sesame oil" },
+      { amount: 2, unit: "", name: "scallions, thinly sliced" },
+      { amount: 1, unit: "tbsp", name: "cilantro, chopped" },
+      { amount: 1, unit: "tbsp", name: "fried shallots (optional)" },
+      { amount: 1, unit: "tsp", name: "chili oil, for drizzling (optional)" },
+      { amount: 1, unit: "clove", name: "garlic, minced (optional)" },
+    ],
+    steps: [
+      "Slice the chilled tofu and arrange on a serving plate.",
+      "Peel the century eggs and cut into wedges; arrange on top of the tofu.",
+      "Drizzle with soy sauce and sesame oil.",
+      "Scatter scallions and cilantro over the top, along with fried shallots, chili oil, or garlic if using.",
+      "Serve cold, straight from the fridge — no cooking needed.",
+    ],
+    notes: "STEAMED VARIATION (hot version)\nInstead of serving cold, slice the tofu and century egg into a heatproof dish and steam for about 5-7 minutes, until the tofu is warmed through. Meanwhile, heat a couple tablespoons of oil in a small pan until shimmering, then pour it hot over a scattering of scallions (and minced garlic, if using) placed on top of the steamed tofu — this blooms the aromatics and gives a warm, fragrant finish. Skip the sesame oil drizzle in this version; the hot oil pour replaces it. Finish with a drizzle of soy sauce.\n\nSOURCING\nCentury eggs and silken tofu are both easy to find at H-Mart or 99 Ranch — 99 Ranch tends to carry a wider selection of pidan brands.\n\nNOTE ON CENTURY EGGS\nLook for ones with a translucent, amber-black gelatinous white and a dark greenish-gray yolk; a strong ammonia smell can mean it's past its prime.",
+  },
 ];
 
 const UNITS = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "l", "piece", "slice", "clove", ""];
